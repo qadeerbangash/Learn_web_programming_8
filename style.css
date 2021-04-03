@@ -1,0 +1,45 @@
+/* body{
+    background-color: greenyellow;
+}
+img{
+    width: 700px;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
+@media only screen and(max-width:400px){
+    img{
+        width: 200px;
+    }
+}
+
+@media only screen and(max-width:400px){
+    h1{
+       font-family: fantasy;
+       background-color: rosybrown;
+    }
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    flex-direction: row-reverse;
+}
+.one,.two,.three{
+    border:2px solid red;
+    width: 250px;
+
+}
+/* }
+.one{
+    flex: 1;
+}
+.two{
+    flex: 4;
+}.three{
+    flex: 2;
+} */
+
